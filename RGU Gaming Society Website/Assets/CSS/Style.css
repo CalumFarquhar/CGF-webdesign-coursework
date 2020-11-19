@@ -1,0 +1,218 @@
+/*@import"templatecolours.css";*/
+body {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+/* Navigation bar CSS */
+/* look into adding list-style-image pg334*/
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a464a4;
+    
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: black
+  }
+  li.dropdown {
+    display: inline-block;  
+    float: right;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a464a4
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.dropdown-content a:hover {background-color: #a464a4;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+nav>ul>li {
+    float: left;
+}
+nav>ul>li> a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    height: 10px;
+    line-height: 55px;
+    
+}
+footer>p {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+li a:hover {
+    color: #363636;
+}
+/* facebook post 1*/
+/*Footer CSS*/
+footer>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a[class="white"] {
+    color: white;
+}
+h2[class="white"] {
+    color: white;
+}
+h3[class="h3"]{
+    text-align: center;
+    text-decoration: underline;
+}
+aside[class="border"] {
+    border: 5px solid #a464a4;
+    padding: 10px;
+    border-radius: 12px;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  padding-left: 5px;
+  margin-left: 0px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+aside[class="border2"]{
+    border: 5px solid #a464a4;
+    padding: 10px;
+    border-radius: 12px;
+    width: 35%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  padding-left: 5px;
+  margin-left: 0px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+footer>ul>li {
+    float: left;
+}
+footer>ul>li a {
+    display: block;
+    color: #000000;
+    text-align: left;
+    padding: 10px 30px;
+    text-decoration: 0;
+}
+li a:hover {
+color: #363636;
+}
+/* Image Sizing CSS */
+img.logo {
+    width: 60px;
+    height: 60px;
+}
+
+/* Facebook Post Sizing */
+#AGM {   
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+#AGM :hover {
+    opacity: 0.5;
+}
+#Ice {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Ice :hover{
+    opacity: 0.5;
+}
+#Dog {  
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Dog :hover {
+    opacity: 0.5;
+}
+#wario {
+    border: 2px solid #a464a4;
+}
+#whiterun {
+    border: 2px solid #a464a4;
+}
+#sus {
+    border: 2px solid #a464a4;
+}
+#vid1{
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+/* Text Styling */
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+p, h2, h3, h4, h5, a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+h3, h4, h5 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+/* Colourings CSS */
+footer {
+    background-color: #a464a4;
+}
+/* Margin Fixes*/
+aside p {
+    margin: 0;
+}
+aside p {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+/*Font sizes*/
+a {
+    font-size: 13px;
+}
+p {
+    font-size: 13px;
+    text-align: center;
+}
+h2 {
+    font-size: 18px;
+}
